@@ -76,7 +76,8 @@
  @media screen and (min-aspect-ratio: 16/9) {
      .bookContainer {
          background-image: url('/files/shot2.jpg');
-         background-size: cover;
+         background-size: contain;
+         height: 100vh;
          /* hoặc contain tùy thuộc vào nhu cầu */
      }
  }
